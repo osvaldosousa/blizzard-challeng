@@ -1,0 +1,50 @@
+.div-container {
+  margin: 0 25px;
+}
+
+.header-content {
+  position: fixed;
+  width: 100vw;
+  border-bottom: .5px solid #fff;
+  padding: 25px
+}
+
+.section-home.-background{
+  background: url(/images/backgrounds/banner-mulher-grande.png) no-repeat;
+  background-size: cover;
+  background-position: 35% 0;
+}
+
+.section-home {
+  padding-top: 100px;
+  padding-bottom: 65px;
+}
+
+.main-title {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 15px;
+  line-height: 50px;
+}
+
+.main-paragraph {
+  font-size: 1.8rem;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.main-button {
+  padding: 15px 32px;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 5px;
+  background:#00AEFF;
+  margin-bottom: 45px;
+}
+
+.list-icons {
+  display: flex;
+  gap: 15px;
+}
