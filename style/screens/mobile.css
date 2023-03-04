@@ -10,7 +10,7 @@
 }
 
 .section-home.-background{
-  background: url(/images/backgrounds/banner-mulher-grande.png) no-repeat;
+  background: url(../../images/backgrounds/banner-mulher-grande.png) no-repeat;
   background-size: cover;
   background-position: 35% 0;
 }
