@@ -1,3 +1,7 @@
+@import url(/style/generic/reset.css);
+@import url(/style/settings/colors.css);
+@import url(/style/elements/font.css);
+
 .div-container {
   margin: 0 25px;
 }
