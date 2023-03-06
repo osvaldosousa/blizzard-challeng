@@ -147,7 +147,8 @@
 
 .descripiton p {
   display: inline-block;
-  width: 90px;
+  width: 130px;
+  font-size: 1.4rem;
   text-align: center;
   color: skyblue;
 }
@@ -176,4 +177,63 @@
 .card-game .game-category {
   font-size: 1.4rem;
   color: #8d8787;
+}
+
+/* Section Download */
+
+.section-download {
+  padding: 60px 0;
+  background: url(../../images/backgrounds/section-download-mobile.png);
+}
+
+.section-download .logo {
+  margin-bottom: 30px;
+}
+
+.section-download .second-title {
+  margin-bottom: 30px;
+}
+
+.section-download .list-links li {
+  display: flex;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-button.-download {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.6rem;
+}
+
+.section-download span {
+  display: flex;
+  gap: 18px;
+}
+
+.section-download p {
+  text-align: left;
+  font-size: 2rem;
+  line-height: 25px;
+}
+
+.section-download a {
+  display: block;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.footer-background {
+  background-color: #020203;
+}
+
+.footer-background img {
+  width: 100%;
 }
