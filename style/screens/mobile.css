@@ -15,6 +15,7 @@
   align-items: center;
   padding: 15px 25px;
   z-index: 5;
+  background-color: hsla(0, 4%, 20%, 0.631);
   border-bottom: 2px solid rgba(78, 71, 71, 0.659);
 }
 
@@ -94,7 +95,7 @@
 .section-home.-background {
   background: url(../../images/backgrounds/banner-mulher-grande.png) no-repeat;
   background-size: cover;
-  background-position: 35% 0;
+  background-position: 36% 0;
 }
 
 .section-home {
@@ -140,9 +141,16 @@
 }
 
 .section-games .descripiton {
+  width: 100%;
   margin-bottom: 50px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+
+.section-games span {
+  display: flex;
+  align-items: baseline;
 }
 
 .descripiton p {
@@ -154,6 +162,7 @@
 }
 
 .second-title {
+  width: 170px;
   font-size: 2.8rem;
   line-height: 110%;
 }
@@ -164,9 +173,14 @@
   grid-gap: 15px;
 }
 
+.card-game {
+  width: 153px;
+}
+
 .card-game .game-image {
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .card-game .game-title {
@@ -183,7 +197,7 @@
 
 .section-download {
   padding: 60px 0;
-  background: url(../../images/backgrounds/section-download-mobile.png);
+  background: url(../../images/backgrounds/section-download-desktop.png) center bottom;
 }
 
 .section-download .logo {
