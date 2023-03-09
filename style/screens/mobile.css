@@ -19,6 +19,10 @@
   border-bottom: 2px solid rgba(78, 71, 71, 0.659);
 }
 
+.button-count {
+  display: none;
+}
+
 /* Header Menu Toggle */
 
 .menu-toggle {
@@ -100,20 +104,21 @@
 
 .section-home {
   padding-top: 100px;
-  padding-bottom: 65px;
+  padding-bottom: 72px;
 }
 
 .main-title {
+  width: 300px;
   font-size: 4rem;
   color: #fff;
   margin-bottom: 15px;
-  line-height: 50px;
+  line-height: 110%;
 }
 
 .main-paragraph {
+  width: 280px;
   font-size: 1.8rem;
   line-height: 25px;
-  letter-spacing: 1px;
   color: #fff;
   margin-bottom: 32px;
 }
@@ -125,12 +130,29 @@
   border-radius: 8px;
   background: #00aeff;
   margin-bottom: 45px;
+  cursor: pointer;
 }
 
 .list-icons {
   display: flex;
   gap: 15px;
 }
+
+.list-icons li {
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: all .3s;
+}
+
+.list-icons li.active {
+  filter: grayscale(0%);
+}
+
+.list-icons li:hover {
+  filter: grayscale(0%);
+  transform: scale(1.3);
+}
+
 
 /* Section Games */
 
@@ -148,14 +170,13 @@
   align-items: center;
 }
 
-.section-games span {
+.span-icons {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  gap: 10px;
 }
 
 .descripiton p {
-  display: inline-block;
-  width: 130px;
   font-size: 1.4rem;
   text-align: center;
   color: skyblue;
@@ -171,6 +192,25 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(145px, 2fr));
   grid-gap: 15px;
+}
+
+
+.card-default {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card-default .-image {
+  margin-bottom: 15px;
+}
+
+.card-default p {
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .card-game .game-image {
@@ -189,22 +229,22 @@
   color: #8d8787;
 }
 
-/* Section Download */
+/* Footer Download */
 
-.section-download {
+.footer-download {
   padding: 60px 0;
   background: url(../../images/backgrounds/section-download-desktop.png) center bottom;
 }
 
-.section-download .logo {
+.footer-download .logo {
   margin-bottom: 30px;
 }
 
-.section-download .second-title {
+.footer-download .second-title {
   margin-bottom: 30px;
 }
 
-.section-download .list-links li {
+.footer-download .list-links li {
   display: flex;
   font-size: 1.8rem;
   margin-bottom: 25px;
@@ -220,30 +260,62 @@
   font-size: 1.6rem;
 }
 
-.section-download span {
+.footer-download span {
   display: flex;
   gap: 18px;
 }
 
-.section-download p {
+.footer-download p {
   text-align: left;
   font-size: 2rem;
   line-height: 25px;
 }
 
-.section-download a {
+.footer-download a {
   display: block;
   color: #fff;
   text-decoration: underline;
   cursor: pointer;
 }
 
-/* Footer */
+/* Media 650px */
 
-.footer-background {
-  background-color: #020203;
-}
+@media (min-width: 600px) {
+  .section-home .main-title {
+    width: 420px;
+    font-size: 6rem;
+  }
 
-.footer-background img {
-  width: 100%;
+  .section-home .main-paragraph {
+    width: 520px;
+  }
+
+  .div-buttons {
+    display: flex;
+    gap: 15px;
+  }
+
+  .button-count {
+    display: initial;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .button-count.-singup {
+    border: 1px solid rgb(66, 64, 64);
+    background: transparent;
+  }
+
+  .button-count.-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: skyblue;
+  }
+
+  
 }

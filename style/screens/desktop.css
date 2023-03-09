@@ -1,0 +1,15 @@
+@media (min-width: 1000px) {
+  .div-container {
+    margin: 0 100px;
+  }
+
+  .header-content {
+    padding: 28px 100px;
+  }
+
+  .div-games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 4fr));
+    grid-gap: 32px;
+  }
+}

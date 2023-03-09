@@ -81,8 +81,21 @@ function showGames() {
         <h4 class="game-title">${game.name}</h4>
         <p class="game-category">${game.category}</p>
       </div>
-    `);
-  });
-}
+    `)
+  })
 
-showGames()
+  divGamesCards.insertAdjacentHTML('beforeend', `
+    <div class="card-default">
+      <img class="-image" 
+        src="images/generic/blizzard-logo.png" 
+        alt="logo da empresa blizzard"
+      />
+      <span class="span-icons">
+        <img src="images/icons/expandir.svg" alt="icone de expandir área"/>
+        <p>Veja todos os Jogos</p>
+      </span>
+    </div>
+  `)
+};
+
+showGames();

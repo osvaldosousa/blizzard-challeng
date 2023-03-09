@@ -17,6 +17,15 @@
         src="./images/generic/blizzard-logo.png"
         alt="logo da loja de jogos blizzard"
       />
+
+      <div class="div-buttons">
+        <button class="button-count -singup">Criar Conta</button>
+        <button class="button-count -login">
+          <img src="./images/icons/login.svg" alt="" />
+          Logar
+        </button>
+      </div>
+
       <div class="menu-toggle">
         <div class="menu-line -one"></div>
         <div class="menu-line -two"></div>
@@ -42,7 +51,9 @@
           </p>
           <button class="main-button">Jogue Agora</button>
           <ul class="list-icons">
-            <li><img src="images/icons/diablo-icon.svg" alt="" /></li>
+            <li class="active">
+              <img src="images/icons/diablo-icon.svg" alt="" />
+            </li>
             <li><img src="images/icons/jogo-2.svg" alt="" /></li>
             <li><img src="images/icons/jogo-2-icon.svg" alt="" /></li>
             <li><img src="images/icons/jogo-11-icon.svg" alt="" /></li>
@@ -55,30 +66,20 @@
         <div class="div-container">
           <div class="descripiton">
             <h2 class="second-title">Jogos exclusivos</h2>
-            <span>
+            <span class="span-icons">
               <img
-                src="images/icons/expandir-area.svg"
+                src="images/icons/expandir.svg"
                 alt="icon para expandir area"
               />
               <p>Ver todos jogos</p>
             </span>
           </div>
 
-          <div class="div-games">
-            <div class="card-game">
-              <img
-                class="game-image"
-                src="./images/games/diablo-dois.png"
-                alt="capa do jogo diablo dois"
-              />
-              <h4 class="game-title">titulo</h4>
-              <p class="game-category">categoria do jogo</p>
-            </div>
-          </div>
+          <div class="div-games"></div>
         </div>
       </section>
 
-      <section class="section-download">
+      <footer class="footer-download">
         <div class="div-container">
           <img
             class="logo"
@@ -118,10 +119,6 @@
             </p>
           </span>
         </div>
-      </section>
-
-      <footer class="footer-background">
-        <img src="images/backgrounds/footer.png" alt="" />
       </footer>
     </main>
     <script src="javascript/menu-mobile.js"></script>
