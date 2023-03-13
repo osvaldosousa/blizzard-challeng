@@ -101,7 +101,7 @@
 .section-home {
   background: url(.././../images/backgrounds/diablo-quatro.png) no-repeat;
   background-size: cover;
-  background-position: 36% 0;
+  background-position: 37% 0;
 }
 
 .section-home {
@@ -160,13 +160,13 @@
 
 @keyframes up-down {
   0% {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
   }
   50% {
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
   }
 }
 
