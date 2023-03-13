@@ -3,7 +3,7 @@ const homeBackground = document.querySelector('.-background');
 
 const infoGamesHome = [
   {
-    urlBackground: './images/backgrounds/banner-mulher-grande.png',
+    urlBackground: './images/backgrounds/diablo-quatro.png',
     title: 'Retorne à escuridão com o game Diablo IV',
     paragraph: 'O retorno de Lilith traz uma era de escuridão e sofrimento',
     button: 'Jogue Agora'
