@@ -7,6 +7,27 @@
     padding: 15px 100px;
   }
 
+  .menu-toggle {
+    display: none;
+  }
+
+  .header-nav {
+    display: block;
+    transform: translateX(-25%);
+  }
+
+  .header-ul {
+    display: flex;
+    gap: 34px;
+  }
+
+  .header-ul li a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+
   .div-games {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 4fr));
