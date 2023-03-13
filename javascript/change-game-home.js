@@ -3,19 +3,19 @@ const homeBackground = document.querySelector('.-background');
 
 const infoGamesHome = [
   {
-    urlBackground: '../../images/backgrounds/banner-mulher-grande.png',
+    urlBackground: './images/backgrounds/banner-mulher-grande.png',
     title: 'Retorne à escuridão com o game Diablo IV',
     paragraph: 'O retorno de Lilith traz uma era de escuridão e sofrimento',
     button: 'Jogue Agora'
   },
   {
-    urlBackground: '../../images/backgrounds/hearthstone-home.png',
+    urlBackground: './images/backgrounds/hearthstone-home.png',
     title: 'Novo pacote de expansão de Hearthstone',
     paragraph: 'A Horda e a Aliança se encontraram no Vale Alterac para lutar',
     button: 'Reserve agora na pré-venda'
   },
   {
-    urlBackground: '../../images/backgrounds/worldwarcraft-shadow-home.png',
+    urlBackground: './images/backgrounds/worldwarcraft-shadow-home.png',
     title: 'Desbrave as Terras Sombrias em Shadowlands! ',
     paragraph: 'O que jaz além do mundo que você conhece?',
     button: 'Reserve agora na pré-venda'

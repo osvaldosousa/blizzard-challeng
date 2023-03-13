@@ -98,7 +98,7 @@
 /* Section Home */
 
 .section-home.-background {
-  background: url(../../images/backgrounds/banner-mulher-grande.png) no-repeat;
+  background: url(.././../images/backgrounds/diablo-quatro.png) no-repeat;
   background-size: cover;
   background-position: 36% 0;
 }
