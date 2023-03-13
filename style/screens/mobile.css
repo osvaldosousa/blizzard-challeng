@@ -15,8 +15,9 @@
   align-items: center;
   padding: 15px 25px;
   z-index: 5;
-  background-color: hsla(0, 4%, 20%, 0.631);
-  border-bottom: 2px solid rgba(78, 71, 71, 0.659);
+  background-color: hsl(0deg 2% 16% / 46%);
+    /* border-bottom: 2px solid rgb(180 178 201 / 66%); */
+  box-shadow: 3px 1px 5px #00000069;
 }
 
 .button-count {
@@ -118,7 +119,7 @@
 
 .main-paragraph {
   width: 280px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 25px;
   color: #fff;
   margin-bottom: 32px;
@@ -132,6 +133,12 @@
   background: #00aeff;
   margin-bottom: 45px;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.main-button:hover {
+  background-color: #026fa1;
+  transform: scale(1.1);
 }
 
 .list-icons {
@@ -147,6 +154,20 @@
 
 .list-icons li.-active {
   filter: grayscale(0%);
+  transform: translateY(-5px);
+  animation: up-down 1s ease-in-out infinite;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
 }
 
 .list-icons li:hover {
@@ -174,6 +195,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .descripiton p {
@@ -217,6 +239,14 @@
   width: 100%;
   margin-bottom: 15px;
   border-radius: 5px;
+}
+
+.card-game {
+  transition: all .3s;
+}
+
+.card-game:hover {
+  transform: scale(1.1);
 }
 
 .card-game .game-title {
@@ -282,8 +312,8 @@
 
 @media (min-width: 600px) {
   .section-home .main-title {
-    width: 420px;
-    font-size: 6rem;
+    width: 451px;
+    font-size: 5rem;
   }
 
   .section-home .main-paragraph {
@@ -302,11 +332,20 @@
     color: #fff;
     font-size: 1.6rem;
     cursor: pointer;
+    transition: all .3s;
+  }
+
+  .button-count:hover {
+    transform: scale(1.2);
   }
 
   .button-count.-singup {
-    border: 1px solid rgb(66, 64, 64);
+    border: 1px solid #fff;
     background: transparent;
+  }
+
+  .button-count.-singup:hover {
+    background-color: rgba(42, 189, 42, 0.952);
   }
 
   .button-count.-login {
