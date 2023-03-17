@@ -1,6 +1,3 @@
-@import url("../style/generic/reset.css");
-@import url("../style/settings/font.css");
-
 .div-container {
   margin: 0 25px;
 }
@@ -273,7 +270,7 @@
 
 .footer-download {
   padding: 60px 0;
-  background: url(../../images/backgrounds/section-download-desktop.png) center bottom;
+  background: url("../images/backgrounds/section-download-desktop.png") center bottom;
 }
 
 .footer-download .logo {
