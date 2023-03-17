@@ -1,3 +1,6 @@
+@import url("../style/generic/reset.css");
+@import url("../style/settings/font.css");
+
 .div-container {
   margin: 0 25px;
 }
@@ -16,7 +19,6 @@
   padding: 15px 25px;
   z-index: 5;
   background-color: hsl(0deg 2% 16% / 46%);
-    /* border-bottom: 2px solid rgb(180 178 201 / 66%); */
   box-shadow: 3px 1px 5px #00000069;
 }
 
@@ -110,8 +112,8 @@
 }
 
 .main-title {
-  width: 300px;
-  font-size: 4rem;
+  width: fit-content;
+  font-size: 3.5rem;
   color: #fff;
   margin-bottom: 15px;
   line-height: 110%;
@@ -220,9 +222,18 @@
 .card-default {
   display: flex;
   justify-content: center;
-  align-self: center;
+  /* align-self: center; */
   flex-direction: column;
   align-items: center;
+  height: 260px;
+}
+
+.card-default span {
+  transition: all .3s;
+}
+
+.card-default span:hover {
+  transform: scale(1.1);
 }
 
 
@@ -310,9 +321,14 @@
 
 /* Media 650px */
 
+.div-buttons {
+  display: none;
+}
+
 @media (min-width: 600px) {
+
   .section-home .main-title {
-    width: 451px;
+    max-width: 560px;
     font-size: 5rem;
   }
 
@@ -356,5 +372,4 @@
     background-color: skyblue;
   }
 
-  
 }
