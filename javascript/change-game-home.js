@@ -7,7 +7,7 @@ const infoGamesHome = [
     title: 'Retorne à escuridão com o game Diablo IV',
     paragraph: 'O retorno de Lilith traz uma era de escuridão e sofrimento',
     button: 'Jogue Agora',
-    positionBackground: 37,
+    positionBackground: 38,
   },
   {
     urlBackground: './images/backgrounds/hearthstone-home.png',
