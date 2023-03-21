@@ -43,7 +43,7 @@ function cahngeParagraph(index) {
 };
 
 function changeButton(index) {
-  const buttonHome = homeBackground.querySelector('.main-button');
+  const buttonHome = homeBackground.querySelector('.game-home');
   buttonHome.textContent = infoGamesHome[index].button;
 };
 
